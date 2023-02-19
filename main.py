@@ -24,12 +24,12 @@ if do < 4 and up < 4:
     email = driver.find_element(By.XPATH,
                                 '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input')
     email.click()
-    email.send_keys("krishtiwari2122@gmail.com")
+    email.send_keys("#")
     email.send_keys(Keys.ENTER)
     sleep(4)
     passw = driver.find_element(By.XPATH,
                                 '//*[@id="layers"]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input')
-    passw.send_keys("Krishtiwari212@$")
+    passw.send_keys("#")
     passw.send_keys(Keys.ENTER)
     sleep(8)
     tweet_click = driver.find_element(By.XPATH,
